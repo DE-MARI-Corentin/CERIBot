@@ -1,0 +1,52 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "trip_plan_form": {
+      "slots": []
+    },
+    "action_otherActivities_costa_rica": {
+      "slots": []
+    },
+    "action_testimonials": {
+      "slots": []
+    },
+    "utter_tip1": {
+      "slots": []
+    },
+    "utter_costa_rica": {
+      "slots": []
+    },
+    "utter_contact": {
+      "slots": []
+    },
+    "utter_tips2": {
+      "slots": []
+    },
+    "utter_tips3": {
+      "slots": []
+    },
+    "utter_add_trip": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    3,
+    3,
+    null,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20200727-145146",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.20.4"
+}

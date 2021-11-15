@@ -1,0 +1,217 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "main_menu",
+        "text": "Let's see"
+      },
+      {
+        "intent": "main_menu",
+        "text": "Main menu"
+      },
+      {
+        "intent": "main_menu",
+        "text": "menu"
+      },
+      {
+        "intent": "plan_my_trip",
+        "text": "Plan My Trip"
+      },
+      {
+        "intent": "plan_my_trip",
+        "text": "plan my tip"
+      },
+      {
+        "intent": "plan_my_trip",
+        "text": "PLAN MY TRIP"
+      },
+      {
+        "intent": "activities_offered",
+        "text": "Activities Offered"
+      },
+      {
+        "intent": "activities_offered",
+        "text": "activities offered"
+      },
+      {
+        "intent": "activities_offered",
+        "text": "activities"
+      },
+      {
+        "intent": "activities_offered",
+        "text": "Activities"
+      },
+      {
+        "intent": "more_info_zipline_tour",
+        "text": "More Information"
+      },
+      {
+        "intent": "more_info_zipline_tour",
+        "text": "About Zipline Tour"
+      },
+      {
+        "intent": "more_info_zipline_tour",
+        "text": "zipline tour"
+      },
+      {
+        "intent": "more_info_natural_exploration",
+        "text": "More Information"
+      },
+      {
+        "intent": "more_info_natural_exploration",
+        "text": "About Natural Exploration"
+      },
+      {
+        "intent": "more_info_natural_exploration",
+        "text": "about natural exploration"
+      },
+      {
+        "intent": "more_info_subwing",
+        "text": "More Information"
+      },
+      {
+        "intent": "more_info_subwing",
+        "text": "About subwing"
+      },
+      {
+        "intent": "more_info_subwing",
+        "text": "subwing"
+      },
+      {
+        "intent": "tour_details_zipline",
+        "text": "Tour details"
+      },
+      {
+        "intent": "tour_details_zipline",
+        "text": "Tour details zipline tour"
+      },
+      {
+        "intent": "tour_details_natural_exploration",
+        "text": "Tour Details"
+      },
+      {
+        "intent": "tour_details_natural_exploration",
+        "text": "tour details natural exploration"
+      },
+      {
+        "intent": "tour_details_subwing",
+        "text": "Tour Details"
+      },
+      {
+        "intent": "tour_details_subwing",
+        "text": "tour details subwing"
+      },
+      {
+        "intent": "add_to_mytrip",
+        "text": "Add to My trip"
+      },
+      {
+        "intent": "add_to_mytrip",
+        "text": "add to my trip"
+      },
+      {
+        "intent": "contact_us",
+        "text": "Contact Us"
+      },
+      {
+        "intent": "contact_us",
+        "text": "contact us"
+      },
+      {
+        "intent": "testimonials",
+        "text": "Testimonials"
+      },
+      {
+        "intent": "testimonials",
+        "text": "testimonials"
+      },
+      {
+        "intent": "testimonials",
+        "text": "TESTIMONIALS"
+      },
+      {
+        "intent": "about_costa_rica",
+        "text": "About Costa Rica"
+      },
+      {
+        "intent": "about_costa_rica",
+        "text": "costa rica"
+      },
+      {
+        "intent": "about_costa_rica",
+        "text": "about costa rica"
+      },
+      {
+        "intent": "tips_and_tricks",
+        "text": "Tips And Tricks"
+      },
+      {
+        "intent": "tips_and_tricks",
+        "text": "tips and tricks"
+      },
+      {
+        "intent": "tips_1",
+        "text": "Tips1"
+      },
+      {
+        "intent": "tips_1",
+        "text": "tips1"
+      },
+      {
+        "intent": "tips_2",
+        "text": "Tips1"
+      },
+      {
+        "intent": "tips_2",
+        "text": "tips1"
+      },
+      {
+        "intent": "tips_3",
+        "text": "Tips3"
+      },
+      {
+        "intent": "tips_3",
+        "text": "tips3"
+      },
+      {
+        "intent": "other_activities",
+        "text": "Other Activities"
+      },
+      {
+        "intent": "other_activities",
+        "text": "other activities"
+      },
+      {
+        "intent": "other_activities",
+        "text": "OTHER ACTIVITIES"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

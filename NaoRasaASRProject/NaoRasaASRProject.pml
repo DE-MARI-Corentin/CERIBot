@@ -5,10 +5,7 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources>
-        <File name="" src=".DS_Store" />
-        <File name="" src=".metadata" />
-    </Resources>
+    <Resources />
     <Topics />
     <IgnoredPaths />
     <Translations auto-fill="en_US">

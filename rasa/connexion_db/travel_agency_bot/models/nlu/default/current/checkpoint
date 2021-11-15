@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\chatbots_seperate_environment\\chatbot_examples\\travel_agency_chatbot\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "D:\\chatbots_seperate_environment\\chatbot_examples\\travel_agency_chatbot\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"

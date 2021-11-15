@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="Chatroom.css" />
+  <title>Chatroom Demo</title>
+</head>
+<body>
+  <div class="chat-container" style="width:30%;"></div>
+
+  <script src="Chatroom.js"/></script>
+  <script type="text/javascript">
+    var chatroom = new window.Chatroom({
+      host: "http://172.20.10.13:5005",
+      title: "Chat with Bottot",
+      container: document.querySelector(".chat-container"),
+      welcomeMessage: "Hi, I am Bottot. How may I help you?",
+      speechRecognition: "en-US",
+      voiceLang: "en-US"
+    });
+    chatroom.openChat();
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,84 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- ask_schedule:
+    use_entities: true
+- give_group:
+    use_entities: true
+- give_section:
+    use_entities: true
+- give_hours:
+    use_entities: true
+- give_date:
+    use_entities: true
+- ask_date:
+    use_entities: true
+- ask_hours:
+    use_entities: true
+entities:
+- section
+- group
+slots:
+  group:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - alternant
+    - classique
+  section:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - m1
+    - m2
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_ask_section:
+  - text: What is your section?
+  - text: I need your section for that.
+  - text: Tell me your section.
+  utter_ask_group:
+  - text: What is your group?
+  - text: Give me your group, please.
+  utter_ask_date:
+  - text: tell me the date boyyy
+  utter_ask_hours:
+  - text: donne moi l'heure
+actions:
+- action_schedule
+forms: {}
+e2e_actions: []
