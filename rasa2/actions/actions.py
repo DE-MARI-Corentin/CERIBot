@@ -47,4 +47,3 @@ class ActionSchedule(Action):
 
         return []
 
-        
