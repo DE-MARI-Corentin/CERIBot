@@ -16,8 +16,8 @@ from ast import literal_eval
 
 def speechRecognition(data, params):
     r = sr.Recognizer()
-
-    audioFileName = 'test.wav'
+    print(data)
+    audioFileName = 'recording.wav'
     data = base64.b64decode(data)
     params = base64.b64decode(params)
     params = literal_eval(params.decode("utf-8"))
@@ -32,7 +32,7 @@ def speechRecognition(data, params):
         audioFile = r.record(source)
 
     try:
-        text = r.recognize_google(audioFile, language="fr-FR")
+        text = r.recognize_google(audioFile, language="fr-FR", key="AIzaSyBmw4rwRvgA3cUolvZE1lfLO92cJIs0qQA")
         return text
     except Exception as e:
         print (e)
@@ -44,9 +44,10 @@ app = Flask(__name__)
 @app.route("/google", methods=["POST"])
 def transcribe():
     req_data = request.get_json(force=True)
-
+    print(req_data)
     # collect the transcription
     result_from_google = speechRecognition(req_data['data'], req_data['params'])
+    #result_from_google = speechRecognition()
 
     print(result_from_google)
     # send back the predicted keyword in json format
@@ -55,4 +56,4 @@ def transcribe():
     return jsonify(reply)
 
 if __name__ == "__main__":
-    app.run(host='172.29.118.134', debug=False)
+    app.run(host='0.0.0.0', debug=True)

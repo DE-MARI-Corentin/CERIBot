@@ -7,6 +7,4 @@ then
 fi
 unset pid
 
-rasa train
-rasa run actions &
-rasa x
+rasa x --enable-api

@@ -19,40 +19,22 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
-- ask_schedule:
+- give_date:
     use_entities: true
-- give_group:
+- ask_schedule:
     use_entities: true
 - give_section:
     use_entities: true
 - give_hours:
     use_entities: true
-- give_date:
+- give_group:
     use_entities: true
 - ask_date:
     use_entities: true
-- ask_hours:
-    use_entities: true
 entities:
-- section
 - group
-slots:
-  group:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - alternant
-    - classique
-  section:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - m1
-    - m2
+- section
+slots: {}
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -67,17 +49,6 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  utter_ask_section:
-  - text: What is your section?
-  - text: I need your section for that.
-  - text: Tell me your section.
-  utter_ask_group:
-  - text: What is your group?
-  - text: Give me your group, please.
-  utter_ask_date:
-  - text: tell me the date boyyy
-  utter_ask_hours:
-  - text: donne moi l'heure
 actions:
 - action_schedule
 forms: {}

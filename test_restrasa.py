@@ -3,7 +3,7 @@ import json
 import random
 import time
 
-url = 'http://192.168.1.70:5005/webhooks/rest/webhook/'
+url = 'http://172.29.122.225:5005/webhooks/rest/webhook/'
 text = "hello"
 
 data = '{"sender":"nao", "message":"' + text + '"}'

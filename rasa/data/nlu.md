@@ -95,10 +95,11 @@
 - 15/10/2021
 - 15/2021
 - 01/88/2021
+- 12/2021
+- 11/2022
 
 ## intent:ask_date
 - Tell me the date boiiii
-
 
 ## intent:give_hours
 - it's 15h30
@@ -108,3 +109,5 @@
 - 15h
 - 14h
 - 11h30
+- 11H
+- 10h
