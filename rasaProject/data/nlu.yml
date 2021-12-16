@@ -1,0 +1,82 @@
+version: "2.0"
+nlu:
+- intent: goodbye
+  examples: |
+    - Ciao
+    - a la prochaine
+    - au revoir
+    - bonne journée
+    - ciao
+    - merci au revoir
+    - très bien merci au revoir
+- intent: start_media
+  examples: |
+    - Quelles sont les informations ?
+    - information
+    - Quelles sont les informations
+    - info
+    - donne moi les informations
+    - donne-moi les informations
+- intent: category
+  examples: |
+    - Catégorie [sport](category)
+    - categorie [sport](category)
+    - [sport](category)
+    - Catégorie [général](category)
+    - categorie [général](category)
+    - [général](category)
+    - Catégorie [internationale](category)
+    - categorie [internationale](category)
+    - [internationale](category)
+    - Catégorie [économie](category)
+    - categorie [économie](category)
+    - [économie](category)
+    - Catégorie [culture](category)
+    - categorie [culture](category)
+    - [culture](category)
+    - Catégorie [santé](category)
+    - categorie [santé](category)
+    - [santé](category)
+    - Catégorie [numerique](category)
+    - categorie [numerique](category)
+    - [numerique](category)
+    - Catégorie [science](category)
+    - categorie [science](category)
+    - [science](category)
+    - Catégorie [politique](category)
+    - categorie [politique](category)
+    - [politique](category)
+    - Catégorie [divers](category)
+    - categorie [divers](category)
+    - divers
+    - section [sport](category)
+    - sur la [santé](category)
+- intent: next_page
+  examples: |
+    - page suivante
+    - suivant
+    - next
+- intent: details
+  examples: |
+    - lis moi l'article [1](details)
+    - detail sur l'article [1](details)
+    - article [1](details)
+    - lis moi l'article [2](details)
+    - detail sur l'article [2](details)
+    - article [2](details)
+    - lis moi l'article [3](details)
+    - detail sur l'article [3](details)
+    - article [3](details)
+    - donne-moi l'article [3](details)
+- intent: list_category
+  examples: |
+    - Quelles catégories propose-tu ?
+    - liste des categories
+    - donne moi les categories
+    - donne categorie
+    - quelles sont les catégories
+- intent: ask_employeur
+  examples: |
+    - Pour qui tu travaille ?
+    - Qui es-tu ?
+    - tu travailles pour qui ?

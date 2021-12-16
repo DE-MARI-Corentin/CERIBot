@@ -1,0 +1,70 @@
+version: "2.0"
+stories:
+- story: Categorie
+  steps:
+  - checkpoint: get_category
+  - intent: category
+  - action: action_articles
+  - checkpoint: get_article
+- story: Suivant
+  steps:
+  - checkpoint: get_category
+  - intent: next_page
+  - action: action_next
+  - checkpoint: get_category
+- story: Goodbye
+  steps:
+  - checkpoint: now_goodbye
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Détail Article
+  steps:
+  - checkpoint: get_article
+  - intent: details
+  - action: action_details
+  - checkpoint: now_goodbye
+- story: Employeur
+  steps:
+  - intent: ask_employeur
+  - action: utter_employeur
+  - checkpoint: start_job
+- story: Start job
+  steps:
+  - checkpoint: start_job
+  - intent: start_media
+  - action: utter_ask_category
+  - checkpoint: get_category
+- story: Demande information
+  steps:
+  - intent: start_media
+  - action: utter_ask_category
+  - checkpoint: get_category
+- story: Liste des Catégories From start
+  steps:
+  - intent: list_category
+  - action: action_category
+  - checkpoint: start_job
+- story: Liste des Catégories
+  steps:
+  - checkpoint: get_category
+  - intent: list_category
+  - action: action_category
+  - checkpoint: get_article
+- story: Return to Demande de categorie
+  steps:
+  - checkpoint: reset_category
+  - intent: ask_employeur
+  - action: utter_ask_category
+  - checkpoint: get_category
+- story: Détail Article return to informations
+  steps:
+  - checkpoint: get_article
+  - intent: details
+  - action: action_details
+  - checkpoint: reset_category
+- story: Categorie reset
+  steps:
+  - checkpoint: get_article
+  - intent: category
+  - action: action_articles
+  - checkpoint: get_article

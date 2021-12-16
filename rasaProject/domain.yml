@@ -1,0 +1,51 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- start_media
+- category
+- next_page
+- details
+- list_category
+- goodbye
+- ask_employeur
+entities:
+- category
+- details
+slots:
+  category:
+    type: categorical
+    influence_conversation: true
+    values:
+    - sport
+    - générale
+    - internationale
+    - économie
+    - culture
+    - santé
+    - numerique
+    - politique
+    - science
+    - divers
+  details:
+    type: categorical
+    influence_conversation: true
+    values:
+    - '1'
+    - '2'
+    - '3'
+responses:
+  utter_ask_category:
+  - text: Que type d'actualité souhaitez-vous ?
+  - text: Quelle catégorie ?
+  utter_artcles:
+  - text: 'Voici vos articles:'
+  utter_goodbye:
+  - text: Au revoir mon ami.
+  utter_employeur:
+  - text: Je suis Robert, vôtre robot journaliste employé par le journal "Le Monde".
+actions:
+- action_articles
+- action_next
+- action_details
+- action_category
