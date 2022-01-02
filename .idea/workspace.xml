@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d6833b7-d568-41b4-9381-3927fafc2ae1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rasaProject/actions/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/data/nlu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/data/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/data/stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/domain.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/events.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/events.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/rasa.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rasaProject/tests/test_stories.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googleSR_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/googleSR_server_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/actions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/actions/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/actions/actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/data/nlu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/data/rules.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/data/stories.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/domain.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/endpoints.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/events.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/events.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/events.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/events.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/data/nlg_nlu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/media_rss_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/service/media_rss_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/media_rss_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/service/media_rss_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/models/20211206-125732.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/models/20211206-125837.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/rasa.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa2/tests/test_stories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasaProject/models/20211215-180507.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasaProject/rasa.db" beforeDir="false" afterPath="$PROJECT_DIR$/rasaProject/rasa.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +103,10 @@
       <workItem from="1639555974542" duration="6844000" />
       <workItem from="1639575915190" duration="22000" />
       <workItem from="1639582859686" duration="4828000" />
-      <workItem from="1639640142013" duration="3915000" />
+      <workItem from="1639640142013" duration="4753000" />
+      <workItem from="1639669527547" duration="245000" />
+      <workItem from="1639835611483" duration="5000" />
+      <workItem from="1640794411230" duration="1392000" />
     </task>
     <servers />
   </component>
